@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vehicleDefinitions xmlns="http://www.matsim.org/files/dtd"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.matsim.org/files/dtd https://www.matsim.org/files/dtd/vehicleDefinitions_v2.0.xsd">
+	<!-- Passenger Car -->
+	<vehicleType id="car">
+		<description>Standard Passenger Car</description>
+		<capacity seats="4" standingRoomInPersons="0"/>
+		<length meter="4.5"/>
+		<width meter="1.8"/>
+		<maximumVelocity meterPerSecond="33.33"/>
+		<passengerCarEquivalents pce="1.0"/>
+		<networkMode networkMode="car"/>
+	</vehicleType>
+
+	<!-- Freight Truck -->
+	<vehicleType id="freight_i">
+		<description>Heavy-Duty Freight Truck</description>
+		<capacity seats="2" standingRoomInPersons="0" volumeInCubicMeters="50" weightInTons="20.0"/>
+		<length meter="12.0"/>
+		<width meter="2.5"/>
+		<maximumVelocity meterPerSecond="25.0"/>
+		<passengerCarEquivalents pce="3.0"/>
+		<networkMode networkMode="freight_i"/>
+	</vehicleType>
+
+	<!-- Freight Truck -->
+	<vehicleType id="freight_n">
+		<description>Heavy-Duty Freight Truck</description>
+		<capacity seats="2" standingRoomInPersons="0" volumeInCubicMeters="50" weightInTons="20.0"/>
+		<length meter="12.0"/>
+		<width meter="2.5"/>
+		<maximumVelocity meterPerSecond="25.0"/>
+		<passengerCarEquivalents pce="3.0"/>
+		<networkMode networkMode="freight_n"/>
+	</vehicleType>
+
+	<!-- Vehicles -->
+	<vehicle id="1" type="car"/>
+	<vehicle id="2" type="car"/>
+	<vehicle id="3" type="car"/>
+	<vehicle id="4" type="car"/>
+	<vehicle id="5" type="car"/>
+	<vehicle id="6" type="car"/>
+	<vehicle id="7" type="car"/>
+	<vehicle id="8" type="car"/>
+	<vehicle id="9" type="car"/>
+	<vehicle id="10" type="car"/>
+	<vehicle id="11" type="car"/>
+	<vehicle id="12" type="car"/>
+	<vehicle id="13" type="car"/>
+	<vehicle id="14" type="car"/>
+	<vehicle id="15" type="car"/>
+	<vehicle id="16" type="car"/>
+	<vehicle id="17" type="car"/>
+	<vehicle id="18" type="car"/>
+	<vehicle id="19" type="car"/>
+	<vehicle id="20" type="car"/>
+	<vehicle id="21" type="car"/>
+	<vehicle id="22" type="car"/>
+	<vehicle id="23" type="car"/>
+	<vehicle id="24" type="car"/>
+	<vehicle id="25" type="car"/>
+	<vehicle id="26" type="car"/>
+	<vehicle id="27" type="car"/>
+	<vehicle id="28" type="car"/>
+	<vehicle id="29" type="car"/>
+	<vehicle id="30" type="car"/>
+	<vehicle id="31" type="car"/>
+	<vehicle id="32" type="car"/>
+	<vehicle id="33" type="car"/>
+	<vehicle id="34" type="car"/>
+	<vehicle id="35" type="car"/>
+	<vehicle id="36" type="car"/>
+	<vehicle id="37" type="car"/>
+	<vehicle id="38" type="car"/>
+	<vehicle id="39" type="car"/>
+	<vehicle id="40" type="car"/>
+	<vehicle id="41" type="car"/>
+	<vehicle id="42" type="car"/>
+	<vehicle id="43" type="car"/>
+	<vehicle id="44" type="car"/>
+	<vehicle id="45" type="car"/>
+	<vehicle id="46" type="car"/>
+	<vehicle id="47" type="car"/>
+	<vehicle id="48" type="car"/>
+	<vehicle id="49" type="car"/>
+	<vehicle id="50" type="car"/>
+	<vehicle id="51" type="car"/>
+	<vehicle id="52" type="car"/>
+	<vehicle id="53" type="car"/>
+	<vehicle id="54" type="car"/>
+	<vehicle id="55" type="car"/>
+	<vehicle id="56" type="car"/>
+	<vehicle id="57" type="car"/>
+	<vehicle id="58" type="car"/>
+	<vehicle id="59" type="car"/>
+	<vehicle id="60" type="car"/>
+	<vehicle id="61" type="car"/>
+	<vehicle id="62" type="car"/>
+	<vehicle id="63" type="car"/>
+	<vehicle id="64" type="car"/>
+	<vehicle id="65" type="car"/>
+	<vehicle id="66" type="car"/>
+	<vehicle id="67" type="car"/>
+	<vehicle id="68" type="car"/>
+	<vehicle id="69" type="car"/>
+	<vehicle id="70" type="car"/>
+	<vehicle id="71" type="car"/>
+	<vehicle id="72" type="car"/>
+	<vehicle id="73" type="car"/>
+	<vehicle id="74" type="car"/>
+	<vehicle id="75" type="car"/>
+	<vehicle id="76" type="car"/>
+	<vehicle id="77" type="car"/>
+	<vehicle id="78" type="car"/>
+	<vehicle id="79" type="car"/>
+	<vehicle id="80" type="car"/>
+
+	<vehicle id="81" type="freight_i"/>
+	<vehicle id="82" type="freight_i"/>
+	<vehicle id="83" type="freight_i"/>
+	<vehicle id="84" type="freight_i"/>
+	<vehicle id="85" type="freight_i"/>
+	<vehicle id="86" type="freight_i"/>
+	<vehicle id="87" type="freight_i"/>
+	<vehicle id="88" type="freight_i"/>
+	<vehicle id="89" type="freight_i"/>
+	<vehicle id="90" type="freight_i"/>
+	<vehicle id="91" type="freight_n"/>
+	<vehicle id="92" type="freight_n"/>
+	<vehicle id="93" type="freight_n"/>
+	<vehicle id="94" type="freight_n"/>
+	<vehicle id="95" type="freight_n"/>
+	<vehicle id="96" type="freight_n"/>
+	<vehicle id="97" type="freight_n"/>
+	<vehicle id="98" type="freight_n"/>
+	<vehicle id="99" type="freight_n"/>
+	<vehicle id="100" type="freight_n"/>
+	<vehicle id="101" type="freight_i"/>
+	<vehicle id="102" type="freight_i"/>
+	<vehicle id="103" type="freight_i"/>
+	<vehicle id="104" type="freight_i"/>
+	<vehicle id="105" type="freight_i"/>
+	<vehicle id="106" type="freight_i"/>
+	<vehicle id="107" type="freight_i"/>
+	<vehicle id="108" type="freight_i"/>
+	<vehicle id="109" type="freight_i"/>
+	<vehicle id="110" type="freight_i"/>
+	<vehicle id="111" type="freight_n"/>
+	<vehicle id="112" type="freight_n"/>
+	<vehicle id="113" type="freight_n"/>
+	<vehicle id="114" type="freight_n"/>
+	<vehicle id="115" type="freight_n"/>
+	<vehicle id="116" type="freight_n"/>
+	<vehicle id="117" type="freight_n"/>
+	<vehicle id="118" type="freight_n"/>
+	<vehicle id="119" type="freight_n"/>
+	<vehicle id="120" type="freight_n"/>
+
+</vehicleDefinitions>
