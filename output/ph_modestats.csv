@@ -1,0 +1,12 @@
+Iteration;car_travel;car_wait;freight_i_travel;freight_i_wait;freight_n_travel;freight_n_wait;stageActivity_travel;stageActivity_wait
+0;80;0;21;0;0;0;0;0
+1;80;0;0;0;21;0;0;0
+2;79;0;20;0;1;0;0;0
+3;80;0;19;0;2;0;0;0
+4;78;0;19;0;1;0;0;0
+5;79;0;21;0;0;0;0;0
+6;78;0;16;0;4;0;0;0
+7;78;0;18;0;2;0;0;0
+8;77;0;17;0;3;0;0;0
+9;77;0;21;0;0;0;0;0
+10;76;0;18;0;2;0;0;0
